@@ -48,7 +48,8 @@ func promtOptions(b bill) {
 		fmt.Println("tip added - ", tip)
 		promtOptions(b)
 	case "s":
-		fmt.Println("you choose to save the bill", b)
+		b.save()
+		fmt.Println("you save the file - ", b.name)
 	default:
 		fmt.Println("that was not valid option...")
 		promtOptions(b)

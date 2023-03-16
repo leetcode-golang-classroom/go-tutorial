@@ -42,3 +42,4 @@ go.work
 # Go workspace file
 go.work
 bin
+bills/*
